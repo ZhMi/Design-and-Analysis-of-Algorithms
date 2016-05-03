@@ -48,9 +48,9 @@ int main()
     int i, j;
 
     printf("输入源字符串A:");
-    scanf("%s",A);
+    gets(A);
     printf("输入目的字符串B:");
-    scanf("%s",B);
+    gets(B);
 
     m = strlen(A);
     n = strlen(B);
